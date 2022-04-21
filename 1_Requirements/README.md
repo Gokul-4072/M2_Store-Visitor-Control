@@ -44,8 +44,18 @@ The Hitachi HD44780 LCD controller is an alphanumeric dot matrix liquid crystal 
 
 * Low Cost
 
+* No need of human intervention.
+
+* Can work 24x7 without any problem.
+
+* Low cost and very easy to implement.
+
 
 ## DISADVANTAGES:
+
+* If there are multiple doors for the same room the project becomes quite complex.
+
+* US sensor cannot detect if lots of people are entering at one time.
 
 * Only we get people count,no visual control is there.
 
