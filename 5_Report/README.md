@@ -9,6 +9,11 @@ In today’s world, there is continuous need automatic appliance will be increas
 
 This Project is useful in developing countries and this project has a bright future. This project helps us to control the light of a room automatically and counts the number of persons/visitors entering and leaving the room. By using this circuit and proper power supply we can implement various applications such as fans, tube lights, etc
 
+## OBJECTIVES:
+
+* This project is built on the connecting of several components with an Arduino microcontroller, such as sensors, motors, and so on. People can be counted in both directions using this counter. 
+
+* This circuit can be used to count the number of people entering a store at the entrance gate, and it can also count the number of people leaving the hall by decrementing the count at the same gate or exit gate, depending on the location of the sensors in the store, and show number of people inside the store.
 
 ## COMPONENTS:
 
@@ -61,15 +66,26 @@ The Hitachi HD44780 LCD controller is an alphanumeric dot matrix liquid crystal 
 * Only we get people count,no visual control is there.
 
 
-## OBJECTIVES:
 
-* This project is built on the connecting of several components with an Arduino microcontroller, such as sensors, motors, and so on. People can be counted in both directions using this counter. 
+## HIGH LEVEL REQUIREMENTS:
 
-* This circuit can be used to count the number of people entering a store at the entrance gate, and it can also count the number of people leaving the hall by decrementing the count at the same gate or exit gate, depending on the location of the sensors in the store, and show number of people inside the store.
+|RID|DESCRIPTION|STATUS|
+|:--|:----------|:-----|
+|HLR1|ULTRASONIC INTERFACING|IMPLEMENTED|
+|HLR2|LCD INTERFCING|IMPLEMENTED|
+
+## LOW LEVEL REQUIREMENTS:
+
+|RID|DESCRIPTION|STATUS|
+|:--|:----------|:-----|
+|LLR1|ATMEGA INTERFACING WITH SERVO MOTOR|IMPLEMENTED|
+|LLR2|BUZZER INTERFACING WITH ATMEGA328|IMPLEMENTED|
 
 
 ## CONCLUSION:
 
 When someone enters, the visitor is added, and therefore the LCD display displays the number of incoming visitors. and the light is activated automatically.
 Basically, when an individual leaves the room or exits, the visitor is reduced. Thus the entire number of current visitors displayed in LCD is also reduced. The LCD display also displays the number of visitors visiting the room and also the number of visitors leaving.This is how Bidirectional Visitor Counter works with Automatic Light Control system using Arduino. It is useful for project hall, school, office, function, etc.
+
+
 
