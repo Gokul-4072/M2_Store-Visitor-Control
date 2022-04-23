@@ -7,8 +7,16 @@
 # CODACY
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/db2416a6844f4dbd8aa640fb1b77cce6)](https://www.codacy.com/gh/Gokul-4072/M2_Store-Visitor-Control/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Gokul-4072/M2_Store-Visitor-Control&amp;utm_campaign=Badge_Grade)
 
+# UNIT TESTING:
+
 # CPPCHECK ANALYSIS
 [![Cppcheck Analysis](https://github.com/Gokul-4072/M2_Store-Visitor-Control/actions/workflows/c-cppcheck%20analysis.yml/badge.svg)](https://github.com/Gokul-4072/M2_Store-Visitor-Control/actions/workflows/c-cppcheck%20analysis.yml)
+
+# GIT INSPECTOR:
+
+# BUILD ON LINUX:
+
+# VALGRIND
 
 # IN ACTION
 
